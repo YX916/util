@@ -1,0 +1,31 @@
+{
+  "name": "@yang-yong-xin/util",
+  "version": "1.9.0",
+  "description": "Node 常用工具包",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access public"
+  },
+  "author": "杨永鑫",
+  "keywords": [
+    "util",
+    "typescript"
+  ],
+  "homepage": "https://github.com/YX916",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YX916/util"
+  },
+  "bugs": {
+    "url": "https://github.com/YX916/util/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

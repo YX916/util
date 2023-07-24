@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "checkJs": false,
+    "target": "ES5",
+    "allowJs": true,
+    "declaration": true, // 是否生成声明文件
+    // "declarationDir": "./dist/types/", // 声明文件打包的位置
+    "outDir": "./dist",
+    "strict": true,
+    "lib": [
+      "DOM",
+      "ES2015",
+      "ES2016",
+      "ES2017"
+    ]
+  },
+  "include": [
+    "src",
+    "index.ts"
+  ]
+}
